@@ -21,7 +21,8 @@ if ($times > "18.00") {
 	$message = "Goede avond!";
 		$image = "backgrounds/evening.png";
 }
-require "lab1.php";
+include "navbar.php";
+include "footer.php";
 ?>
 
 <!DOCTYPE html>
@@ -29,11 +30,11 @@ require "lab1.php";
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="refresh" content="1">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Goede PHP Jeroen Faasse</title>
 </head>
 <body style="background-image: url(<?php echo $image;?>); background-size: cover; background-repeat: no-repeat;">
   <h1 style=" color: orange; font-size: 60px; text-align: center; "><?php echo $message; ?></h1>
 	<h2 style="color: orange; font-size: 45px; text-align: center; margin-top: 1%;"><?php echo $times; ?></h2>
-
 </body>
 </html>
