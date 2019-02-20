@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<meta charset="UTF-8">
-	<meta http-equiv="refresh" content="1">
 	<title>Goede PHP Jeroen Faasse</title>
 </head>
 <body>
