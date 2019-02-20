@@ -1,6 +1,6 @@
 <?php
+include "header.php";
 $rand = (mt_rand(1,10));
-
  for($i=1; $i<=10; $i++){		//optelsom
           echo '<p>', $i,'+',$rand,'=',($i+$rand),'<br>','</p>';
       }
@@ -25,7 +25,6 @@ foreach ($numbers as $value) {
       }
       echo '</div>';
   }
-  include "header.php";
   ?>
 
 <!DOCTYPE html>

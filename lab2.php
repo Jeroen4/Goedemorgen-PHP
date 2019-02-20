@@ -12,7 +12,27 @@
   echo "<h1>$txt1  $txt2</h1>";
   $arr = array('Hello','World!');
   echo implode(" ",$arr);
-?>
+
+  date_default_timezone_set("Europe/Amsterdam");
+  $times = date("H:i:sA");
+
+  if ($times > "24.00") {
+    $image = "backgrounds/night.png";
+  }
+
+  if ($times > "06.00") {
+      $image = "backgrounds/morning.png";
+  }
+
+  if ($times > "12.00") {
+      $image = "backgrounds/afternoon.png";
+  }
+
+  if ($times > "18.00") {
+      $image = "backgrounds/evening.png";
+  }
+  ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,6 +40,6 @@
   <meta charset="UTF-8">
   <title>Jeroen Faasse</title>
 </head>
-<body>
+<body style="background-image: url(<?php echo $image;?>); background-size: cover; background-repeat: no-repeat;">
 </body>
 </html>
