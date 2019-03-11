@@ -33,7 +33,7 @@ include "navbar.php";
 	<title>Goede PHP Jeroen Faasse</title>
 </head>
 <body style="background-image: url(<?php echo $image;?>); background-size: cover; background-repeat: no-repeat;">
-  <h1 style=" color: orange; font-size: 60px; text-align: center; "><?php echo $message; ?></h1>
-	<h2 style="color: orange; font-size: 45px; text-align: center; margin-top: 1%;"><?php echo $times; ?></h2>
+    <h1 style=" color: orange; font-size: 60px; text-align: center; "><?php echo $message; ?></h1>
+    <h2 style="color: orange; font-size: 45px; text-align: center; margin-top: 1%;"><?php echo $times; ?></h2>
 </body>
 </html>
