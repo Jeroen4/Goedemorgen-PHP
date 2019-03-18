@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<meta charset="UTF-8">
-	<title>Goede PHP Jeroen Faasse</title>
-</head>
-<body>
+
 	<nav>
 		<ul>
 			<li><a href="index.php">home</a></li>
@@ -15,5 +8,3 @@
 			<li><a href="site.php">website</a></li>
 		</ul>
 	</nav>
-</body>
-</html>
